@@ -12,12 +12,18 @@ node_modules/
 
 # Ignore editor files.
 
-*.sublime-project
-*.sublime-workspace
 *.nova
 *.code-workspace
 
 # Miscellaneous
 
-db-backup/
-src/zerossl/
+organize/*
+
+dist/html/*
+!dist/html/system/
+dist/html/system/*
+!dist/html/system/user/
+dist/html/system/user/*
+!dist/html/system/user/templates/
+dist/html/system/user/templates/*
+!dist/html/system/user/templates/default_site/
